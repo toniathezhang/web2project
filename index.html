@@ -5,21 +5,24 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-        
+        <!-- linking the font "press start 2P" -->
         <title></title>
     </head>
 <body>
     <input id="sound" type="image" src="media/sound-01.png" value="PLAY" onclick="play()">
     <audio id="audio" src="media/nikki.mp3"></audio>
-
+    <!-- clicking on the pink sound image triggers the sound
+    code from here: https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    I wanted to autoplay but it seems like google forbid that.-->
     
     <div id="gradient"> 
         <!-- the main div that replaces body is gradient. -->
         
         <div id="hero">
             <img id="desk" src="media/desk.gif">
+            <!-- first gif -->
             <div id="ladder">
-                <!-- ladder div contains the ladder -->
+                <!-- ladder div contains the ladder. it's just text.-->
                 <p id="lad">
                     ╬═╬
                 </p>
@@ -1196,7 +1199,7 @@
                     ╬═╬
                 </p>
             </div>
-            <!-- end of ladder -->
+            <!-- end of ladder. below are just gifs -->
             <img id="bridge" src="media/bridge.gif">
             <img id="sit" src="media/sit.jpg">
             <img id="umbrella" src="media/umbrella.gif">
@@ -1209,6 +1212,7 @@
             </p>
             <img id="nikki" src="media/nikki.gif">
             <br>
+            <!-- adding some white space -->
             <br>
             <p id="text">
                 It's free on <a href="https://store.steampowered.com/app/650700/Yume_Nikki/" target="_blank">Steam</a>.

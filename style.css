@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+/* imported font */
 #gradient {
 
     background-image: linear-gradient(white,rgb(255, 255, 255), white, grey,rgb(88, 88, 88), rgb(71, 71, 71),black,black,black,black);
-    
+    /* gradient background */
 
 }
 
 
 #sound {
+    /* little sound pictogram to trigger audio */
 
 position: fixed;
 margin-top: 60vh;
@@ -22,7 +24,7 @@ width: 35px;
 body {
     cursor: url("media/Precision\ Select.cur"),auto;
 }
-
+/* custom cursor */
 
 #desk {
 
@@ -33,6 +35,8 @@ body {
     width: 10%;
 
 }
+
+/* different color for different sections of ladders */
 
 #lad {
 
